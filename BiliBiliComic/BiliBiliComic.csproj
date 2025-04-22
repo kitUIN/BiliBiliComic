@@ -5,15 +5,21 @@
         <LangVersion>12</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>BiliBiliComic</PackageId>
+        <Version>0.1.0</Version>
+        <Description>哔哩哔哩漫画</Description>
+        <Authors>kitUIN</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/kitUIN/BiliBiliComic</PackageProjectUrl>
+        <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
+        <Copyright>Copyright 2023-2025</Copyright>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Refit" Version="8.0.0" />
       <PackageReference Include="Refit.Newtonsoft.Json" Version="8.0.0" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Formatters\" />
-    </ItemGroup>
+ 
 
 </Project>
